@@ -1,4 +1,7 @@
-// Qredit API Library
+/*
+  Example of using this library
+*/
+
 const qreditApi = require("./qreditApi");
 const qapi = new qreditApi.default();
 
