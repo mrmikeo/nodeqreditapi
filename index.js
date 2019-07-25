@@ -2,7 +2,7 @@
   Example of using this library
 */
 
-const qreditApi = require("./qreditApi");
+const qreditApi = require("./lib/qreditApi");
 const qapi = new qreditApi.default();
 
 
