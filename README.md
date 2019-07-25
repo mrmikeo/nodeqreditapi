@@ -3,6 +3,14 @@
 A Promised NodeJS Module for connecting with the Qredit V2 API
 
 ```
+git clone https://github.com/mrmikeo/nodeqreditapi
+cd nodeqreditapi
+npm install
+
+node index.js
+```
+
+```
 const qreditApi = require("./qreditApi");
 const qapi = new qreditApi.default();
 
