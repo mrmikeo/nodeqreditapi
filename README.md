@@ -11,13 +11,15 @@ node index.js
 ```
 
 ```
-const qreditApi = require("./qreditApi");
+const qreditApi = require("./lib/qreditApi");
 const qapi = new qreditApi.default();
 
 
 (async () => {
   
   var currentHeight = await qapi.getBlockHeight();
+  
+  console.log("Blockchain Height: " + currentHeight);
   
 });
 ```
