@@ -21,5 +21,5 @@ const qapi = new qreditApi.default();
   
   console.log("Blockchain Height: " + currentHeight);
   
-});
+})();
 ```
