@@ -12,4 +12,4 @@ const qapi = new qreditApi.default();
   
   console.log('Current Blockchain Height: ' + currentHeight);
   
-});
+})();
