@@ -1,6 +1,13 @@
 # Node Qredit API Helper
 
+[![Build Status](https://travis-ci.org/mrmikeo/nodeqaeapi.svg?branch=master)](https://travis-ci.org/mrmikeo/nodeqaeapi.svg?branch=master)
+
+[![https://telegram.me/@MrMike_O](https://img.shields.io/badge/💬%20Telegram-MrMike__O-blue.svg)](https://telegram.me/@MrMike_O)
+
+
 A Promised NodeJS Module for connecting with the Qredit V2 API
+
+A Full Integration Guide for both QreditAPI and QAE can be found here:  [Qredit Integration Guide](https://github.com/mrmikeo/nodeqreditintegration)
 
 ## Install via git
 ```
