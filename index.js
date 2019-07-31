@@ -4,9 +4,6 @@
  * @license MIT
  */
 
-module.exports = {
+module.exports = require("./lib/qreditApi");
 
-	qreditApi: require("./lib/qreditApi"),
-
-};
 
