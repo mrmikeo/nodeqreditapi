@@ -1,15 +1,12 @@
-/*
-  Example of using this library
-*/
 
-const qreditApi = require("./lib/qreditApi");
-const qapi = new qreditApi.default();
+/**
+ * @module qreditApi
+ * @license MIT
+ */
 
+module.exports = {
 
-(async () => {
-  
-  var currentHeight = await qapi.getBlockHeight();
-  
-  console.log('Current Blockchain Height: ' + currentHeight);
-  
-})();
+	qreditApi: require("./lib/qreditApi"),
+
+};
+
